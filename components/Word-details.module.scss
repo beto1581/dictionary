@@ -1,0 +1,11 @@
+.word_section {
+    &__title {
+        background-color: var(--main-color);
+        display: inline-block;
+        font-size: 1.5rem;
+        color: white;
+        padding: 5px 15px;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+}

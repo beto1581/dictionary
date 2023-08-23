@@ -1,12 +1,12 @@
 import WordDetails from './Word-details';
-import './../styles/main-section.scss';
+import style from './Main.module.scss';
 export default function Main(){
     return (
-        <main className="main-section">
-            <div className="main-section__content">
+        <main className={style.main_section}>
+            <div className={style.main_section__content}>
             <WordDetails></WordDetails>
             </div>
-            <div className="main-section__sidebar">
+            <div className={style.main_section__sidebar}>
 
             </div>
         </main>
