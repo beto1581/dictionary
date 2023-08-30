@@ -1,7 +1,6 @@
 import style from './Header.module.scss';
 import  Search  from './Search';
-export default function Header(){
-   console.log(style);
+export default function Header(){ 
     return (
         <div className={style.header_section}>
            <div className={style.header_section__container}>

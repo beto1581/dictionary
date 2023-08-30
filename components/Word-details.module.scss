@@ -1,39 +1,33 @@
 .word_section {
+    background-color: rgb(246, 243, 243);
+    padding: 15px;
     &__title {
-        background-color: var(--main-color);
-        display: inline-block;
-        font-size: 1.5rem;
-        color: white;
+       
+        display: inline-flex;
+        font-size: 2.8rem;
+        // color: white;
         padding: 5px 15px;
-        margin-bottom: 15px;
+        margin-bottom: 15px; 
         font-style: italic;
-    }
-
-    &__phonetic {
-        color: rgb(83, 83, 83);
-        font-size: 16px;
-        margin-bottom: 10px;
-
-    }
-
-    &__origin {
-        background-color: rgb(208, 208, 208);
-        padding: 10px;
-        font-size: 1.5rem;
-
-        p {
-            font-weight: bold;
-            text-transform: capitalize;
-            display: block;
-            margin-bottom: 10px;
+        flex-direction: row;
+        align-items: center;
+        font-family: var(--font-title);
+        &__phonetic { 
+            font-size: 16px; 
+            margin-left: 25px;
+    
+        }
+        &__play{
+            font-size: 16px;
+            margin-left: 25px;
         }
     }
 
+    
+
+
     &__meanings {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        background-color: rgb(231, 230, 230);
-        padding: 10px;
+        
 
         p {
             font-weight: bold;
@@ -43,10 +37,9 @@
         }
 
         &__item {
-            margin: 10px auto;
-            padding: 10px;
-            background-color: rgb(208, 208, 208);
-
+            margin: 10px auto; 
+            background:rgb(219, 219, 219);
+            padding: 15px;
             &__title {
                 font-weight: bold;
                 font-size: 1.2rem;
@@ -56,6 +49,7 @@
             }
 
             &__definitions {
+                
                 span {
                     display: block;
 
