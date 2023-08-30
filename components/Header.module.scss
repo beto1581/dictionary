@@ -2,6 +2,10 @@
     background-color: rgb(0, 59, 118);
     padding: 100px 25px;
     width: 100%;
+    background-image: url('../public/header.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 
     &__container {
         display: flex;
